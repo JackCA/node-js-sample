@@ -3,5 +3,11 @@
   "description": "A barebones Node.js app using Express 4",
   "repository": "https://github.com/heroku/node-js-sample",
   "logo": "http://node-js-sample.herokuapp.com/node.svg",
-  "keywords": ["node", "express", "static"]
+  "keywords": ["node", "express", "static"],
+  "env": {
+    "SOME_TOKEN": {
+      "description": "A secret key for verifying the integrity of signed cookies.",
+      "generator": "foo"
+    }
+  }
 }
